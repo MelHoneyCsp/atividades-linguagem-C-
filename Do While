@@ -1,0 +1,29 @@
+          int opcao;
+ 
+            do
+            {
+                Console.WriteLine("Menu com 3 opçoes");
+                Console.WriteLine("---------------");
+                Console.WriteLine("1");
+                Console.WriteLine("2- Data ");
+                Console.WriteLine("3-sair do sistema");
+                opcao = int.Parse(Console.ReadLine());
+                switch (opcao)
+                {
+ 
+                    case 1:
+                        Console.WriteLine("Ola");
+                        break;
+                    case 2:
+                        Console.WriteLine($"");
+                        break;
+                    default:
+                        Console.WriteLine("saindo do sistema");
+                        break;
+                }
+                while (opcao > 3) ;
+                Console.WriteLine("saindo so sistema");
+            }         
+        }
+    }
+}
